@@ -162,7 +162,7 @@
 .title__banner__info .first__content .content__calendar{
     margin: 20% 0;
 }
-.title__banner__info .first__content .content__calendar input{
+.title__banner__info .first__content .content__calendar .detail span input{
     background-color: transparent;
     width: 70px;
 }
