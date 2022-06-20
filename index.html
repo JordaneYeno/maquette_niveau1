@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="Stylesheet" type="text/css" />   
     <link rel="stylesheet" href="style.css">
     <title>Hôtel Méridien</title>
 </head>
@@ -41,17 +42,18 @@
                 </div>
             </div>
             <div class="right__p">
+    <form action=""  class="form-group">
                 <div class="content">
                     <div class="banner__hero"><img src="./ressources/11.png" alt=""></div>
                     <div class="title__banner__info row btw">
-                        <div class="first__content">
+                            <div class="first__content">
                             <div class="content__calendar row">
                                 <div class="item">
                                     <img src="./ressources/icons/4.png" alt="" width="30">
                                 </div>
                                 <div class="detail row column font-sans">
                                     <span class="title__item">Entré</span>
-                                    <span>Date</span>
+                                    <span><input type="text" name="date" id="txtdateentree" class="form-control" placeholder="Date"></span>
                                 </div>
                             </div>
                             <hr class="line xy-center">
@@ -63,7 +65,7 @@
                                 </div>
                                 <div class="detail row column font-sans">
                                     <span class="title__item">Sortie</span>
-                                    <span>Date</span>
+                                    <span><input type="text" name="date" id="txtdatesortie" class="form-control" placeholder="Date"></span>
                                 </div>
                             </div>
                             <hr class="line xy-center">
@@ -75,7 +77,7 @@
                                 </div>
                                 <div class="detail row column font-sans">
                                     <span class="title__item">Nombres</span>
-                                    <span>Ajoutez</span>
+                                    <span><input type="number" name="nombre" id="" class="" placeholder="Ajoutez" min="1" max="10"></span>
                                 </div>
                             </div>
                         </div>
@@ -83,6 +85,7 @@
                 </div>
             </div>
         </div>
+    </form>
     </main>
     <!-- end main -->
     
@@ -139,8 +142,13 @@
     </section>
     <!-- end one one -->
        
+
+
     <!-- two two -->
     <section class="two__two pad-60">
+<!-- gradient -->
+<div class="gradient left__grad"></div>
+<!-- end gradient -->
         <div class="container font-sans">
             <div class="head__section row column alg-hzt">
                 <h2 class="title font-serif">
@@ -209,11 +217,17 @@
                 </div>
             </div>
         </div>
+<!-- gradient -->
+<div class="gradient right__grad"></div>
+<!-- end gradient -->
     </section>
     <!-- end two two -->
        
     <!-- three three -->
     <section class="three__three pad-60">
+<!-- gradient -->
+<div class="gradient left__grad"></div>
+<!-- end gradient -->
         <div class="container font-sans">
             <div class="head__section">
                 <h2 class="title font-serif row column alg-hzt">
@@ -318,6 +332,9 @@
                 </div>
             </div>
         </div>
+<!-- gradient -->
+<div class="gradient right__grad"></div>
+<!-- end gradient -->
     </section>
     <!-- end four four -->
 
@@ -367,5 +384,12 @@
         </div>
     </footer>
     <!-- end footer -->  
+
+
+    <!-- javaScript / JQuery -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="./main.js"></script>
+    <!-- end javaScript / JQuery -->
 </body>
 </html>

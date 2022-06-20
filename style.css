@@ -126,6 +126,10 @@
     width: 60%;
     text-align: center;
 }
+.main__part .right__p input{
+    border: none;
+    width: 60px;
+}
 .main__part .right__p .banner__hero{
     width: 1000px ;
     height: 90vh;
@@ -156,7 +160,16 @@
     margin-left: 100px;
 }
 .title__banner__info .first__content .content__calendar{
-    margin: 30% 0;
+    margin: 20% 0;
+}
+.title__banner__info .first__content .content__calendar input{
+    background-color: transparent;
+    width: 70px;
+}
+.title__banner__info .first__content .content__calendar input::placeholder{
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
 }
 .title__banner__info .first__content .content__calendar .detail{
     margin-left: 20px;
@@ -555,3 +568,47 @@ footer .right .head__section .fomular button{
     text-align: center;
 }
 /* end footer */
+
+
+/* gradient */
+.gradient{
+    width: 200px;
+    height: 110px;
+    transform: rotate(-30deg);
+    border-radius: 50px;
+    opacity: .45;
+    filter: blur(38px);
+    background: rgb(255,248,90);
+    background: radial-gradient(circle, rgb(90, 255, 255) 0%, rgba(0,194,255,1) 80%, rgba(255,2,169,0.9547991071428571) 100%);
+}
+.left__grad{
+    margin-left: -110px;
+}
+.two__two {
+    position: relative;
+}
+.two__two .left__grad{
+    position: absolute;
+    top: 110px;
+}
+.two__two .right__grad{
+    position: absolute;
+    margin-top: -290px;
+    right: 14px;
+}
+.three__three {
+    position: relative;
+}
+.three__three .left__grad{
+    position: absolute;
+    top: 20px;
+}
+.four__four{
+    position: relative;
+}
+.four__four .right__grad{
+    position: absolute;
+    margin-top: -60px;
+    right: 14px;
+}
+/* end gradient */
