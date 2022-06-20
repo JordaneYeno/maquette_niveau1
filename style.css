@@ -251,12 +251,13 @@
     line-height: 32px;
 }
 .one__one .container .cards__items .item:nth-child(4){
-    margin: -30px 0 0 30px;
+    margin: -33px 0 0 30px;
     width: 585px;
+    height: auto;
 }
 .one__one .container .cards__items .item:nth-child(4) img{
     width: 100%;
-    height: 100%;
+    height: 99%;
 }
 /* end one__one */
 
